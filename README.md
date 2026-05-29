@@ -52,11 +52,11 @@ git clone https://github.com/HajarBoulmane/enst-bot.git
 cd enst-bot
 ```
 
-#### 2. Configure the bot
+### 2. Configure the bot
 Create or update `src/main/resources/application.properties`:
 
 
-# Telegram Bot Configuration
+### Telegram Bot Configuration
 ```
 telegram.bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
 telegram.bot.username=YOUR_BOT_USERNAME
@@ -82,20 +82,11 @@ server.port=8080
 # Using Maven wrapper
 ./mvnw spring-boot:run
 ```
-# Or with Maven installed
-```bash
-mvn spring-boot:run
-```
 
 ### 5. Start chatting
 Search for your bot on Telegram and send a message!
 
-##  Usage Examples
 
-Once running, users can:
-- Send text messages to the bot
-- Receive AI-generated responses
-- Ask questions, get information, or just chat
 
 ##  Environment Variables (Alternative)
 
