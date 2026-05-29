@@ -62,14 +62,14 @@ telegram.bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
 telegram.bot.username=YOUR_BOT_USERNAME
 ```
 
-# LLM Configuration 
+### LLM Configuration 
 
 ```
 llm.api.key=YOUR_OPENAI_API_KEY
 llm.model=gpt-3.5-turbo
 ```
 
-# Server Configuration
+### Server Configuration
 server.port=8080
 
 
