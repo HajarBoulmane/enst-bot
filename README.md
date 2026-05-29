@@ -71,7 +71,7 @@ llm.model=gpt-3.5-turbo
 
 # Server Configuration
 server.port=8080
-```
+
 
 ### 3. Get your credentials
 - **Telegram Bot Token**: Message [@BotFather](https://t.me/BotFather) on Telegram
@@ -81,8 +81,9 @@ server.port=8080
 ```bash
 # Using Maven wrapper
 ./mvnw spring-boot:run
-
+```
 # Or with Maven installed
+```bash
 mvn spring-boot:run
 ```
 
