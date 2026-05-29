@@ -12,7 +12,7 @@ A Telegram bot powered by Large Language Models (LLM) for intelligent conversati
 
 ## 📁 Project Structure
 
-
+``` bash
 enst-bot/
 │
 ├── src/
@@ -55,16 +55,19 @@ cd enst-bot
 ### 2. Configure the bot
 Create or update `src/main/resources/application.properties`:
 
-```properties
+
 # Telegram Bot Configuration
+```
 telegram.bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
 telegram.bot.username=YOUR_BOT_USERNAME
+```
 
 # LLM Configuration (choose one)
 # For OpenAI:
+```
 llm.api.key=YOUR_OPENAI_API_KEY
 llm.model=gpt-3.5-turbo
-
+```
 
 # Server Configuration
 server.port=8080
