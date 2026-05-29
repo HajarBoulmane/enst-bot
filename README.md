@@ -1,11 +1,11 @@
 Here's the complete README in markdown:
 
 ```markdown
-# ENST Bot 🤖
+# ENST-Bot 
 
 A Telegram bot powered by Large Language Models (LLM) for intelligent conversations and assistance.
 
-## 🚀 Tech Stack
+## Tech Stack
 - Java
 - Spring Boot
 - Telegram Bot API
@@ -21,10 +21,10 @@ enst-bot/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── org/example/
-│   │   │       ├── controllers/
-│   │   │       ├── services/
-│   │   │       ├── config/
-│   │   │       └── bot/
+│   │   │       ├── agent/
+│   │   │       ├── telegram/
+│   │   │       ├── tools/
+│   │   │       └── web/
 │   │   │
 │   │   └── resources/
 │   │       └── application.properties
@@ -35,16 +35,16 @@ enst-bot/
 └── README.md
 ```
 
-## ✨ Features
+##  Features
 - 🤖 Telegram bot integration
 - 🧠 LLM-powered conversations
 
 
-## 📋 Prerequisites
+##  Prerequisites
 - Java 11 or higher
 - Maven
 - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
-- LLM API Key (OpenAI/Gemini)
+- LLM API Key (OpenAI/Gemini/llama)
 
 ## 🔧 Installation & Setup
 
@@ -88,14 +88,14 @@ mvn spring-boot:run
 ### 5. Start chatting
 Search for your bot on Telegram and send a message!
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 Once running, users can:
 - Send text messages to the bot
 - Receive AI-generated responses
 - Ask questions, get information, or just chat
 
-## 🔒 Environment Variables (Alternative)
+##  Environment Variables (Alternative)
 
 Instead of hardcoding credentials in `application.properties`, use environment variables:
 
