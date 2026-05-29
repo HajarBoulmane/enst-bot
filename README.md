@@ -14,7 +14,7 @@ A Telegram bot powered by Large Language Models (LLM) for intelligent conversati
 
 ## 📁 Project Structure
 
-```
+
 enst-bot/
 │
 ├── src/
