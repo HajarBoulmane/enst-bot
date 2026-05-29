@@ -1,6 +1,4 @@
-Here's the complete README in markdown:
 
-```markdown
 # ENST-Bot 
 
 A Telegram bot powered by Large Language Models (LLM) for intelligent conversations and assistance.
