@@ -7,7 +7,7 @@ A Telegram bot powered by Large Language Models (LLM) for intelligent conversati
 - Java
 - Spring Boot
 - Telegram Bot API
-- LLM Integration (OpenAI/Gemini)
+- LLM Integration (LLama)
 - Maven
 
 ##  Project Structure
@@ -33,18 +33,18 @@ enst-bot/
 └── README.md
 ```
 
-##  Features
+###  Features
 -  Telegram bot integration
 -  LLM-powered conversations
 
 
-##  Prerequisites
+###  Prerequisites
 - Java 11 or higher
 - Maven
 - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
 - LLM API Key (OpenAI/Gemini/llama)
 
-##  Installation & Setup
+###  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -52,7 +52,7 @@ git clone https://github.com/HajarBoulmane/enst-bot.git
 cd enst-bot
 ```
 
-### 2. Configure the bot
+#### 2. Configure the bot
 Create or update `src/main/resources/application.properties`:
 
 
@@ -62,8 +62,8 @@ telegram.bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
 telegram.bot.username=YOUR_BOT_USERNAME
 ```
 
-# LLM Configuration (choose one)
-# For OpenAI:
+# LLM Configuration 
+
 ```
 llm.api.key=YOUR_OPENAI_API_KEY
 llm.model=gpt-3.5-turbo
@@ -73,7 +73,7 @@ llm.model=gpt-3.5-turbo
 server.port=8080
 
 
-### 3. Get your credentials
+#### 3. Get your credentials
 - **Telegram Bot Token**: Message [@BotFather](https://t.me/BotFather) on Telegram
 - **LLM API Key**: Sign up at [OpenAI](https://platform.openai.com/) or [Google AI Studio](https://makersuite.google.com/)
 
