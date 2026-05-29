@@ -10,7 +10,7 @@ A Telegram bot powered by Large Language Models (LLM) for intelligent conversati
 - LLM Integration (OpenAI/Gemini)
 - Maven
 
-## 📁 Project Structure
+##  Project Structure
 
 ``` bash
 enst-bot/
@@ -34,8 +34,8 @@ enst-bot/
 ```
 
 ##  Features
-- 🤖 Telegram bot integration
-- 🧠 LLM-powered conversations
+-  Telegram bot integration
+-  LLM-powered conversations
 
 
 ##  Prerequisites
@@ -44,7 +44,7 @@ enst-bot/
 - Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
 - LLM API Key (OpenAI/Gemini/llama)
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
